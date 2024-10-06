@@ -6,3 +6,15 @@ HTML: Uygulamanın yapısal iskeleti için.
 CSS: Görsel tasarım ve stil için.
 JavaScript: Dinamik işlevsellik ve para dönüşüm hesaplamaları için.
 API: Gerçek zamanlı döviz kurları almak için.
+
+
+![Uygulama Ici Gorsel 1](img/gorselBulmaUygulamaIciResim1.PNG)
+
+
+![Uygulama Ici Gorsel 2](img/gorselBulmaUygulamaIciResim2.PNG)
+
+
+![Uygulama Ici Gorsel 1](img/gorselBulmaUygulamaIciResim1.PNG)
+
+
+![Uygulama Ici Gorsel 2](img/gorselBulmaUygulamaIciResim2.PNG)
