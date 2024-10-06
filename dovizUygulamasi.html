@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+        <div id="donusturucuBolumu">
+            <div id="ustBaslik">
+                <h1>Para Dönüşüm Hesaplayıcısı</h1>
+            </div>
+            <div id="inputAlani">
+                <input id="miktarGiris" type="number" placeholder="Lutfen Donusturulecek Para Miktarini Giriniz ">
+                <select id="ilkParaBirimiSeçeneği">
+                    <option selected>USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>ISK</option>
+                    <option>NOK</option>
+                    <option>HRK</option>
+                    <option>RUB</option>
+                    <option>TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                    <option>HKD</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>ZAR</option>
+                </select>
+                <i class="fa-solid fa-arrow-right" style="display: flex; align-items: center;"></i>
+                <select id="ikinciParaBirimiSeçeneği">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>ISK</option>
+                    <option>NOK</option>
+                    <option>HRK</option>
+                    <option>RUB</option>
+                    <option selected>TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                    <option>HKD</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>ZAR</option>
+                </select>
+                <input id="sonucCiktisi" readonly type="number" placeholder="Sonuc Ciktisi">
+            </div>
+            <button id="temizle"><strong>TEMİZLE</strong></button>
+        </div>
+    </div>
+
+    <script src="js/DovizUygulamasiCurrency.js"></script>
+    <script src="js/DovizUygulamasiMain.js"></script>
+</body>
+</html>
